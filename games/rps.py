@@ -91,7 +91,8 @@ def rpsGame():
 
     try:
          level = int(input("Choose your level: 1,2,3 "))
-     except ValueError:
+         
+    except ValueError:
          print("Enter the number only")
 
     while True:
