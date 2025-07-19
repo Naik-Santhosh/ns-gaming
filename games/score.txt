@@ -1,4 +1,4 @@
 name = naik
-level = 6
-wins = 5
-losses = 12
+level = 0
+wins = 
+losses = 0

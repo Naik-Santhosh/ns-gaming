@@ -1,6 +1,7 @@
 import time, os
 
 from games.guess import guessing
+from games.rps import rpsGame
 
 os.system('clear') #clearing the terminal
 
@@ -28,7 +29,7 @@ while True:
     if choice == 1:
         guessing()
     elif choice == 2:
-        pass
+        rpsGame()
     elif choice == 3:
         pass
     elif choice == 4:
